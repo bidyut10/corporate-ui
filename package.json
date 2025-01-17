@@ -1,0 +1,38 @@
+{
+  "name": "corporate-ui",
+  "version": "1.0.1",
+  "description": "A reusable SideNavbar React component library.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "ui-library",
+    "sidenavbar",
+    "component"
+  ],
+  "author": "Bidyut Kundu",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "lucide-react": "^0.473.0"
+  }
+}
